@@ -30,7 +30,6 @@ public class MainActivity extends Activity {
         pageView.setSizeChangedObserver(new SizeChangedObserver());
         pageView.setCurrentIndex(0);
         pageView.setBackgroundColor(0xFF202830);
-        pageView.setMargins(.01f, .01f, .01f, .01f);
     }
 
     @Override
